@@ -61,7 +61,7 @@
     * * *
 
 `````
-5 . Do the same as exercise 5, but now the method should print the same as in exercise 2.
+5 . Do the same as exercise 5, but now only as many lines as there's stars in each line.
 
 `````
     // Example

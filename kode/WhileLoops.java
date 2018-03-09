@@ -57,6 +57,7 @@ public class WhileLoops{
          tabel++;
       }
       */
+      /*
       //random tal
       //final int ANTAL_TAL = 100;
       //læs hvor mange tal vi skal bruge med Scanner objektet
@@ -82,13 +83,16 @@ public class WhileLoops{
       gennemsnit = sum / antalOmgange;
       //udskriv gennemsnittet
       System.out.println("Gennemsnit: " + gennemsnit);
-      
+      */
       
       //pythagoras kan bruges til at finde afstande i et koordinatsystem
       //a^2 + b^2 = c^2 => c = kvadratrod(a^2 + b^2)
       //scanner-opgave: brug .nextDouble() til at indlæse a og b
-      double a=scan.nextDouble();
-      double b=scan.nextDouble();
+      Scanner sca = new Scanner(System.in);
+      System.out.print("a: ");
+      double a=sca.nextDouble();
+      System.out.print("b: ");
+      double b=sca.nextDouble();
       double c=0;
       //find og udskriv c ved hjælp af Math.sqrt() og *
       c = Math.sqrt(a*a + b*b);

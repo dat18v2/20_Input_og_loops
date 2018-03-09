@@ -95,7 +95,7 @@ public class WhileLoops{
       double b=sca.nextDouble();
       double c=0;
       //find og udskriv c ved hjælp af Math.sqrt() og *
-      c = Math.sqrt(a*a + b*b);
+      c = Math.sqrt(Math.pow(a,2) + Math.pow(b,2));
       //udskriv c
       System.out.println("A: " + a + "\nB: " + b + "\nC: " + c);
       

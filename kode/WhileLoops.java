@@ -86,6 +86,7 @@ public class WhileLoops{
       
       //pythagoras kan bruges til at finde afstande i et koordinatsystem
       //a^2 + b^2 = c^2 => c = kvadratrod(a^2 + b^2)
+      //scanner-opgave: brug .nextDouble() til at indlæse a og b
       double a=3;
       double b=4;
       double c=0;

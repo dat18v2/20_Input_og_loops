@@ -85,6 +85,7 @@ public class WhileLoops{
       System.out.println("Gennemsnit: " + gennemsnit);
       */
       
+      /*
       //pythagoras kan bruges til at finde afstande i et koordinatsystem
       //a^2 + b^2 = c^2 => c = kvadratrod(a^2 + b^2)
       //scanner-opgave: brug .nextDouble() til at indlæse a og b
@@ -98,7 +99,26 @@ public class WhileLoops{
       c = Math.sqrt(Math.pow(a,2) + Math.pow(b,2));
       //udskriv c
       System.out.println("A: " + a + "\nB: " + b + "\nC: " + c);
+      */
       
+      //input tal så længe der ikke tastes 0 - udskriv gennemsnit
+      Scanner sc = new Scanner(System.in);
+      int sum = 0;
+      int taeller = 0;
+      System.out.print("Skriv tal (0 for at stoppe og beregne gennemsnit): ");
+      int tal = sc.nextInt();
+      while(tal !=0){
+         sum += tal;
+         taeller++;
+         System.out.print("Skriv tal (0 for at stoppe og beregne gennemsnit): ");
+         tal = sc.nextInt();
+      }
+      if (taeller>0){
+         System.out.println("Gennemsnittet er :" + sum/taeller);
+      }
+      else{
+         System.out.println("Gennemsnittet er udefineret");
+      }
    }
    
 }
